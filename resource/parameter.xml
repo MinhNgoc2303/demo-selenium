@@ -1,0 +1,18 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NgocTest" parallel="false">
+	<test name="TestWithChrome">
+	<parameter name ="username01" value="mngr214186" />
+	<parameter name ="password01" value="jypAmYd" />
+	
+	<parameter name ="username02" value="mngr214187" />
+	<parameter name ="password02" value="nadEmEq" />
+	
+	<parameter name ="username03" value="vunguyen" />
+	<parameter name ="password03" value="12345678" />
+		<classes>
+			<class name="SeleniumAPI.loginGuru" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

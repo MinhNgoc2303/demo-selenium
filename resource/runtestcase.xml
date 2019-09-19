@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NgocTest" parallel="false">
+	<test name="TestWithChrome">
+		<groups>
+			<run>
+				<include name="Chrome01" />
+				<include name ="FF01"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
